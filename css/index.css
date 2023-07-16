@@ -1,0 +1,26 @@
+nav{
+    gap: 40%;
+    background-color: aqua;
+    padding-left: 15%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+    position: fixed;
+    width: 100%;
+    
+}
+.section1{
+    background-color: black;
+}
+.border{
+    border: black solid 2px;
+}
+
+.text{
+    margin-top: 40%;
+}
+.section1{
+    background-color: rgb(24, 31, 40);
+}
+.about{
+    margin-top: 20%;
+}
