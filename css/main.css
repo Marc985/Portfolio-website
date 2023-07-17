@@ -13,36 +13,36 @@
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color:white;
 }
 h1 {
 	font-size: 65px;
-	color: #2d3033;
+	color:white;
 }
 h2 {
 	font-size: 40px;
-	color: #2d3033;
+	color:white;
 }
 h3 {
 	font-size: 28px;
-	color: #2d3033;
+	color:white;
 	font-weight: 300;
 }
 h4 {
 	font-size: 22px;
-	color: #2d3033;
+	color:white;
 	font-weight: 400;
 }
 h5 {
 	font-size: 14px;
-	color: #2d3033;
+	color:white;
 	text-transform: uppercase;
 	font-weight: 700;
 }
 .btn {
 	border: 1px solid rgba(0, 0, 0, 0.75);
 	margin-top: 20px;
-	color: #2a2a2a;
+	color:white;
 	font-size: 12px;
 	font-weight: 400;
 	letter-spacing: 1px;
@@ -62,7 +62,7 @@ h5 {
 	 General Style
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: white;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -74,7 +74,11 @@ a:hover, a:focus {
 body {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	color: #6c7279;
+	color:white;
+}
+.header{
+	position: fixed;
+	margin-top: 0;
 }
 ul, ol {
 	margin: 0;
@@ -144,7 +148,7 @@ ul li {
 	display: inline-block;
 }
 .navigation a {
-	color: #808080;
+	color: white;
 	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 2px;

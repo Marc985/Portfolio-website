@@ -1,26 +1,134 @@
+
 nav{
     gap: 40%;
-    background-color: aqua;
     padding-left: 15%;
-   padding-top: 0.5%;
+   
    padding-bottom: 0.5%;
     position: fixed;
     width: 100%;
     
 }
+
 .section1{
     background-color: black;
 }
-.border{
-    border: black solid 2px;
-}
+
 
 .text{
-    margin-top: 40%;
+   
+   width: 20vw;
+    margin: 0 auto;
+   padding-top:10%;
+}
+.text span{
+    color: rgb(6, 69, 206);
 }
 .section1{
     background-color: rgb(24, 31, 40);
 }
 .about{
     margin-top: 20%;
+}
+
+
+.nav{
+    color: white;
+}
+.bouton{
+    background-color: aqua;
+}
+.image{
+    border-radius: 30%;
+}
+.image img{
+    margin-top: -10%;
+    margin-bottom: 10%;
+}
+.top{
+    margin-top: 25%;
+}
+.center{
+    margin: 0 auto;
+}
+.me{
+    width: 15vw;
+}
+.section2{
+    background-color: rgb(13, 16, 21);
+}
+.home{
+    padding-bottom: 10%;
+}
+.progress{
+    position: relative;
+    width: 70%;
+    height: 1vh;
+    margin: 0 auto;
+    
+}
+.progress-bar{ 
+    position: absolute;
+    
+    background-color: rgb(70, 95, 185);
+   
+    height: 100%;
+}
+.percentage1{
+    width: 0;
+}
+.percentage2{
+    width: 0%;
+    animation: progression2 2s forwards;
+}
+.percentage3{
+    width: 0%;
+    animation: progression3 2s forwards;
+
+}
+.title{
+width: 20vw;
+}
+.percentage{
+    color: white;
+
+}
+.skill-percentage-title{
+    width: 70%;
+    margin: 0 auto;
+    gap: 70%;
+}
+@keyframes progression1 {
+    100%{
+        width: 75%;
+    }
+}
+@keyframes progression2 {
+    100%{
+        width: 85%;
+    }
+}
+@keyframes progression3 {
+    100%{
+        width: 60%;
+    }
+}
+
+.service{
+    box-shadow: 2px 3px 5px black;
+    border-radius: 5%;
+    padding: 2%;
+    background-color: rgb(13, 16, 21);
+
+}
+.section3{
+    background-color: rgb(24, 31, 40);
+    
+}
+
+.services{
+    width: 70%;
+    margin: 0 auto;
+}
+.service-title{
+    padding:5% 0;
 }
