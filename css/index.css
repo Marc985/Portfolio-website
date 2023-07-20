@@ -78,11 +78,9 @@ nav{
 }
 .percentage2{
     width: 0%;
-    animation: progression2 2s forwards;
 }
 .percentage3{
     width: 0%;
-    animation: progression3 2s forwards;
 
 }
 .title{
@@ -91,6 +89,16 @@ width: 20vw;
 .percentage{
     color: white;
 
+}
+.animation1{
+    animation: progression1 2s forwards;
+
+}
+.animation2{
+    animation: progression2 2s forwards;
+}
+.animation3{
+    animation: progression3 2s forwards;
 }
 .skill-percentage-title{
     width: 70%;
@@ -132,3 +140,94 @@ width: 20vw;
 .service-title{
     padding:5% 0;
 }
+.portfolio{
+    width: 100%;
+}
+.container_portfolio{
+    height: 75vh;
+}
+.section4{
+    background-color: rgb(13, 16, 21);
+
+}
+.section4 ul{
+    width: 11%;
+    margin: 3vh auto;
+}
+footer{
+    background-color: rgb(24, 31, 40);
+}
+.talk{
+    background-color: rgb(13, 16, 21);
+    border-radius: 15px;
+    width: 70%;
+    padding: 2%;
+}
+.name,.email,.project{
+    outline: none;
+    background-color: transparent;
+    border: white solid 2px;
+    width: 100%;
+    border-radius: 15px;
+    height: 7vh;
+}
+.form{
+    width: 80%;
+    margin: 0 auto;
+}
+.form label{
+    position: absolute;
+    top: -1.3vh;
+    left:1vw;
+    background-color: rgb(24, 31, 40);
+
+}
+.form div{
+    position: relative;
+}
+.send{
+    height: 4vh;
+    width: 30%;
+   border-radius: 15px;
+   background-color: transparent;
+   border: white solid 2px;
+   color: white;
+
+}
+.project{
+    height:17vh;
+
+}
+footer .container{
+    width: 50%;
+}
+.swiper {
+    width: 30vw;
+    height: 40vh;
+    border: black solid 2px;
+  }
+  .img{
+    width: 6.5vw;
+    height: 12vh;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+  .imgcont{
+    width: 7vw;
+    margin: 0 auto;
+    border-radius: 100%;
+  }
+  .section5{
+    background-color: rgb(22, 22, 121);
+  }
+  .swip{
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 15px;
+    height: 100%;
+
+  }
+  .testimonial-text{
+    width: 80%;
+    margin: 0 auto;
+  }
