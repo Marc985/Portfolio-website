@@ -1,21 +1,6 @@
 
-const type=new Typed(".multiple-text",{
-    strings:['Fullstack developper','data-analyst','designer'],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop:true
-})
-let mixer = mixitup(".container_portfolio", {
-  selectors: {
-      target: '.portfolio'
-  },
-  animation: {
-      duration: 300
-  }
 
-});
-
+//intersection observer
 const sections = document.querySelectorAll('.percentage1 ,.percentage2 ,.percentage3');
 
 const observerOptions = {
@@ -38,7 +23,7 @@ const sectionObserver = new IntersectionObserver((entries, observer) => {
      if( entry.target.classList.contains("percentage3"))
      entry.target.classList.add("animation3")
       let values=document.querySelectorAll(".percentage");
-      let inter=1000
+      let inter=1500
       incr(values,inter)
       // Arrêtez d'observer la section une fois l'animation appliquée
       observer.unobserve(entry.target);
@@ -50,9 +35,12 @@ sections.forEach(section => {
   sectionObserver.observe(section);
 });
 
+
+
+
 //auto incrimentation
 let valueDisplays = document.querySelectorAll(".number");
-let intervalle = 1000;
+let intervalle = 1200;
 
 function incr(values,intervalle){
   values.forEach((valueDisplay) => {
@@ -75,24 +63,4 @@ function incr(values,intervalle){
 incr(valueDisplays,intervalle);
 
 
-const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});

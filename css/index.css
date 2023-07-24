@@ -1,12 +1,33 @@
 
 nav{
-    gap: 40%;
+    gap: 30%;
     padding-left: 15%;
-   
+    margin-top: 1.5vh;
    padding-bottom: 0.5%;
     position: fixed;
     width: 100%;
     
+}
+.nav-link{
+    color: white;
+}
+.logo_cont{
+    border: white solid 3px;
+    position: relative;
+    width: 3%;
+}
+.logo_cont p{
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    background-color: rgb(24, 31, 40);
+
+}
+header{
+    background-color: rgba(13, 16, 21, 0.208);
+    width: 100%;
+    height: 8vh;
+    box-shadow: black 2px 2px 5px;
 }
 
 .section1{
@@ -21,7 +42,7 @@ nav{
    padding-top:10%;
 }
 .text span{
-    color: rgb(6, 69, 206);
+    color: rgb(97, 144, 246);
 }
 .section1{
     background-color: rgb(24, 31, 40);
@@ -56,6 +77,17 @@ nav{
 .section2{
     background-color: rgb(13, 16, 21);
 }
+.section2 p{
+    width: 80%;
+    margin: 0 auto;
+}
+.pic{
+    margin: 0 auto;
+}
+.fa-java{
+    color: #dc0202;
+    font-size: larger;
+}
 .home{
     padding-bottom: 10%;
 }
@@ -69,8 +101,8 @@ nav{
 .progress-bar{ 
     position: absolute;
     
-    background-color: rgb(70, 95, 185);
-   
+    background-color: rgb(97, 144, 246);
+    box-shadow: 0 0 15px 5px white;   
     height: 100%;
 }
 .percentage1{
@@ -120,11 +152,22 @@ width: 20vw;
         width: 60%;
     }
 }
-
+.technologies{
+    width: 44%;
+    margin: 5vh auto;
+}
+.technologies img{
+    width: 7vw;
+    height: 14vh;
+}
 .service{
     box-shadow: 2px 3px 5px black;
     border-radius: 5%;
     padding: 2%;
+    background-color: rgb(13, 16, 21);
+
+}
+.section{
     background-color: rgb(13, 16, 21);
 
 }
@@ -231,3 +274,23 @@ footer .container{
     width: 80%;
     margin: 0 auto;
   }
+  /* Largeur de la scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Couleur du fond de la scrollbar */
+  ::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+  
+  /* Couleur du curseur (la partie mobile de la scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #ed1313;
+  }
+  
+  /* Couleur du curseur au survol */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #dc0202;
+  }
+  
