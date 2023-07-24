@@ -1,0 +1,10 @@
+ScrollReveal({
+    reset:true,
+    distance:'80px',
+    duration:2000,
+    delay:200   
+})
+ScrollReveal().reveal('.top_appearance',{origin:'top'})
+ScrollReveal().reveal('.left_appearance',{origin:'left'})
+ScrollReveal().reveal('.right_appearance',{origin:'right'})
+ScrollReveal().reveal('.bottom_appearance',{origin:'bottom'})

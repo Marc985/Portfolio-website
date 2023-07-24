@@ -281,16 +281,31 @@ footer .container{
   
   /* Couleur du fond de la scrollbar */
   ::-webkit-scrollbar-track {
-    background-color: #000000;
+    background-color: #060607;
   }
   
   /* Couleur du curseur (la partie mobile de la scrollbar) */
   ::-webkit-scrollbar-thumb {
-    background-color: #ed1313;
-  }
+    background-color: rgb(97, 144, 246);
+
+}
   
-  /* Couleur du curseur au survol */
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #dc0202;
+  /*=========================responsive====================*/
+  @media screen and (max-width: 1024px){
+    .text{
+        width: 80%;
+    }
+    .me{
+        width: 80%;
+    }
+    .pic{
+        width: 100%;
+    }
+    .hello{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
   }
   

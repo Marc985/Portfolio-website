@@ -40,7 +40,7 @@ sections.forEach(section => {
 
 //auto incrimentation
 let valueDisplays = document.querySelectorAll(".number");
-let intervalle = 1200;
+let intervalle = 1600;
 
 function incr(values,intervalle){
   values.forEach((valueDisplay) => {
