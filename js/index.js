@@ -22,6 +22,16 @@ const sectionObserver = new IntersectionObserver((entries, observer) => {
      entry.target.classList.add("animation2")
      if( entry.target.classList.contains("percentage3"))
      entry.target.classList.add("animation3")
+     if( entry.target.classList.contains("percentage4"))
+     entry.target.classList.add("animation4")
+     if( entry.target.classList.contains("percentage5"))
+     entry.target.classList.add("animation5")
+     if( entry.target.classList.contains("percentage6"))
+     entry.target.classList.add("animation6")
+     if( entry.target.classList.contains("percentage7"))
+     entry.target.classList.add("animation7")
+     if( entry.target.classList.contains("percentage8"))
+     entry.target.classList.add("animation8")
       let values=document.querySelectorAll(".percentage");
       let inter=1500
       incr(values,inter)
