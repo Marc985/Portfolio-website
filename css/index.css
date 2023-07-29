@@ -12,14 +12,26 @@
     src: url('../police/Poppins-Light.ttf');
 }
 .barnav{
-   
+   width: 100%;
     background-color: rgb(13, 16, 21);
+    margin-top: -1vh;
+    
 
 }
+body{
+    background: rgb(13, 16, 21);
+}
+
 .header{
-    margin-top: -1.2vh;
+    z-index: 1;
 }
+.nav-link:hover{
+    color: rgb(97, 144, 246);
+}
+.nav-link:focus{
+    color: rgb(97, 144, 246);
 
+}
 .navbar-brand{
     color: white;
 }
@@ -341,7 +353,14 @@ width: 20vw;
     width: 100%;
 }
 
-
+.filter:hover{
+color: rgb(97, 144, 246);
+}
+.filter-bg{
+    background-color: rgb(97, 144, 246);
+    padding: 5%;
+    border-radius: 5px;
+}
 .section4{
     background-color: rgb(13, 16, 21);
 
@@ -402,10 +421,10 @@ footer .container{
     height: 50vh;
   }
   .client_img{
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-  }
+ width:150px;
+    height: 100px;
+border-radius: 15px;
+}
   .imgcont{
     width: 7vw;
     margin: 0 auto;
@@ -459,10 +478,20 @@ footer .container{
     .navbar-collapse{
         margin-left: 0;
     }
+  .image{
+    border: none;
+  }
+  .client_img{
+    width: 250px;
+    height: 200px;
+
+  }
     .text{
         width: 80%;
     }
-   
+    .header{
+        width: 80%;
+    }
     .me{
         width: 80%;
     }
@@ -472,8 +501,26 @@ footer .container{
     .hello{
         display: none;
     }
+    .button{
+        width: 45%;
+    }
     .nav{
         display: none;
+    }
+    .bouton{
+        width: 45%;
+    }
+    .services{
+        width: 100%;
+    }
+    .swiper{
+        height: auto;
+    }
+    .send{
+        width: 80%;
+    }
+    .talk_to_me{
+        width: 100%;
     }
     .talk{
         width: 100%;
