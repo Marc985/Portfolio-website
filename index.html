@@ -18,23 +18,40 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
     <link rel="stylesheet" href="css/index.css">
 
 </head>
 
 <body>
-
+<header class="header">
+    <nav class="navbar navbar-expand-lg barnav">
+        <div class="container-fluid">
+          <div class="fs-3 my_logo">MA<span class="RC">RC</span></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-5">
+              <a class="nav-link" aria-current="page" href="#">about</a>
+              <a class="nav-link" href="#">skills</a>
+              <a class="nav-link" href="#">services</a>
+              
+              <a class="nav-link" aria-disabled="true">contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
     <main>
         <section class="section1 home">
-            <div class="container border">
-                <h1 class="text fs-2 top_appearance border">
+            <div class="container">
+                <h1 class="text fs-2 top_appearance">
                     Hello,i'm Marc Herilala
                     a <span class="multiple-text"></span>
                 </h1>
                 <div class="row mt-5">
-                    <div class="col-md-4 d-flex flex-column gap-5  align-items-center border">
-                        <div class="top text-center me left_appearance border">
+                    <div class="col-md-4 d-flex flex-column gap-5  align-items-center">
+                        <div class="top text-center me left_appearance">
                             <div class="fs-3">Biography</div>
                             <p>
                                 Thrives on creative challenges and continuous growth. Open to exciting opportunities and
@@ -63,7 +80,7 @@
                     </div>
                     <div class="col-md-4 border image image_container">
                         <div>
-                            <img src="images/Marc.png" class="image" alt="">
+                            <img src="images/Marc.png" class="pic_of_me" alt="pic of me">
                         </div>
                     </div>
                     <div class="col-md-4 d-flex flex-column gap-5  align-items-center">
@@ -94,11 +111,11 @@
                         class="fa-brands fa-github fa-2xl"></i></a>
             </div>
         </section>
-        <section class="section2">
+        <section class="section2 pb-5">
             <div class="container">
                 <div class="row">
                     <div
-                        class="col-md-6 about border left_appearance d-flex flex-column justify-content-center align-items-center">
+                        class="col-md-6 about left_appearance d-flex flex-column justify-content-center align-items-center">
                         <h1 class="text-center">about me</h1>
                         <p class="text-center">
                             I'm<span class="text-primary">RAZANAJATOVO Marc Herilala.I'm 29 years old</span>
@@ -130,7 +147,7 @@
                         <div class="skills d-flex flex-column gap-5 bottom_appearance">
                             <div class="skill d-flex flex-column gap-5 analys">
                                 <div class="">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3"> <i
                                                 class="fa-brands fa-python fa-2xl"></i>
                                             <div class="title fs-2 tex">Python</div>
@@ -142,7 +159,7 @@
                                     </div>
                                 </div>
                                 <div class="skill mysql">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3"><i
                                                 class="fa-solid fa-database fa-2xl"></i>
                                             <div class="title fs-2">mysql</div>
@@ -164,7 +181,7 @@
                         <div class="skills d-flex flex-column  bottom_appearance">
                             <div class="skill d-flex flex-column gap-5 analys">
                                 <div>
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3">
                                             <i class="fa-brands fa-html5 fa-2xl"></i>
                                             <div class="title fs-2">HTML</div>
@@ -176,7 +193,7 @@
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3">
                                             <i class="fa-brands fa-css3-alt fa-2xl"></i>
                                             <div class="title fs-2">CSS</div>
@@ -188,7 +205,7 @@
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3">
                                             <i class="fa-brands fa-react fa-2xl"></i>
                                             <div class="title fs-2">REACT</div>
@@ -210,7 +227,7 @@
                         <div class="skills d-flex flex-column  bottom_appearance">
                             <div class="skill d-flex flex-column gap-5 analys">
                                 <div class="skill">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3">
                                             <i class="fa-brands fa-java fa-2xl"></i>
                                             <div class="title fs-2">JAVA</div>
@@ -222,7 +239,7 @@
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3">
                                             <i class="fa-solid fa-server fa-2xl"></i>
                                             <div class="title fs-2">Apache</div>
@@ -234,7 +251,7 @@
                                     </div>
                                 </div>
                                 <div class="skill">
-                                    <div class="d-flex flex-row skill-percentage-title">
+                                    <div class="d-flex flex-row skill-percentage-title percentage_gap">
                                         <div class="d-flex flex-row align-items-center gap-3"><i
                                                 class="fa-solid fa-database fa-2xl"></i>
                                             <div class="title fs-2">postgresql</div>
@@ -252,59 +269,134 @@
                 </div>
             </div>
         </section>
-        <!--<section class="section">
-            <h1 class="fs-2  border text-center">career path</h1>
-            <div class="border">
-
-                <ul>
-                    <li>
-                        2023-2025:I pursued my academic path at the prestigious Haute Ecole d'Informatique in Madagascar
-                        (HEI).
-                        Fueled by a passion for Java programming, I embarked on an apprenticeship as a Java developer
-                        during my
-                        second year at HEI.
-                    </li>
-                    <li>
-                        In 2025: I earned my bachelor's degree. Building on this accomplishment, I decided to delve into
-                        a full-stack
-                        developer role at Bocasay, where I could apply my skills in designing and developing
-                        cutting-edge information systems.
-                    </li>
-                    <li>
-                        2008: I decided to take my academic journey further by gaining admission to the renowned
-                        Massachusetts Institute of
-                        Technology (MIT) at USA. There, I immersed myself in a stimulating environment that fostered
-                        continuous learning and innovation.
-                    </li>
-                    <li>
-                        In 2030,I obtained my engineering degree. Armed with newfound knowledge and expertise,
-                        I seized a unique opportunity to join Microsoft as a data analyst.
-
-                    </li>
-                    <li>
-                        From 2030 until the present day, I have been actively contributing to
-                        exciting projects at Microsoft, where I have the privilege of collaborating with a team of
-                        talented and inspiring professionals.
-                    </li>
-
-                </ul>
-            </div>
-        </section>-->
-        <section>
+        
+        <section class="qualification_section">
+            <h2 class="text-center py-4">qualification</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div>Experience</div>
-                         
+                    <div class="col-md-6 d-flex flex-column gap-3  align-items-center">
+
+                    <div class="fs-3 d-flex flex-row justify-content-center align-items-center">
+                            <i class="fa-solid fa-graduation-cap fa-lg"></i>
+                            <div>diploma</div>
+                        </div>
+                        <div class="d-flex flex-column gap-3  graduation">
+                            <div>
+                                <div class="fs-4">LICENCE</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2023-2025</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Haute Ecole d'Informatique(HEI) Madagascar</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-column gap-3  graduation">
+                                <div class="fs-4">Master</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2028-2030</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Massachusetts Institute of Technology(MIT) at USA</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fs-4">Engineering Degree</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2030-2031</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Massachusetts Institute of Technology(MIT) at USA</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <div>Education</div>
+                    <div class="col-md-6 d-flex flex-column gap-3 justify-content-center align-items-center">
+                        <div class="fs-3 d-flex flex-row justify-content-center align-items-center">
+                            <i class="fa-solid fa-business-time fa-lg"></i>
+                            <div>Experience</div>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div>
+                                <div class="fs-4">Developper backend</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2032-2034</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Bocasay</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fs-4">developper fullstack</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2035-2038</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Novity</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fs-4">Data analyst</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2039-2043</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Telma Madagascar</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fs-4">UI UX designer</div>
+                                <div>
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-calendar-days fa-sm"></i>
+                                        <div>2045-2050</div>
+                                    </div>
+
+                                    <div class="d-flex flex-row  align-items-center gap-1"><i
+                                            class="fa-solid fa-school fa-sm"></i>
+                                        <div>Microsoft</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                   
+
+                
                 </div>
             </div>
         </section>
         <section class="section3 pb-5">
-            <h1 class="text-center fs-1 service-title">sercives</h1>
+            <h1 class="text-center fs-1 service-title">services</h1>
             <div class="container services">
                 <div class="row">
                     <div class="col-md-4">
@@ -318,11 +410,11 @@
                                     understandable manner.</li>
                                 <li></li>
                             </ul>
-                            <button class="bouton">read more</button>
+                            <button class="bouton">interested</button>
                         </div>
                     </div> <!--box icons-->
                     <div class="col-md-4">
-                        <div class="d-flex flex-column gap-3 service align-items-center p-5">
+                        <div class="d-flex flex-column gap-3 service align-items-center p-5 service-content">
                             <div><i class="fa-solid fa-paintbrush fa-2xl service_icon"></i></div>
                             <div class="fs-3">UI UX design</div>
                             <ul>
@@ -331,25 +423,25 @@
                                 <li>Optimization of user exeperience (UX) for existing websites to improve
                                     navigation,accessibility,and user-friendliness.</li>
                             </ul>
-                            <button class="bouton">read more</button>
+                            <button class="bouton">interested</button>
                         </div>
 
                     </div>
                     <div class="col-md-4">
 
-                        <div class="d-flex flex-column align-items-center gap-3 service p-5">
+                        <div class="d-flex flex-column align-items-center gap-3 service p-5 service-content">
                             <div class="text-center"><i class="fa-solid fa-tablet fa-2xl service_icon"></i></div>
                             <div class="fs-3">Mobile application</div>
                             <ul>
                                 <li>
-                                    Development of native mobile applications for iOS and Android platforms
+                                    Development of native mobile applications for iOS and Android
                                 </li>
                                 <li>
-                                    Creation of cross-platform mobile applications that function on multiple platforms
-                                    using a single source code.
+                                    Creation of cross-platform mobile applications that function on multiple platforms,utilizing a unified source code to ensure a smooth 
+                                    user experience across various devices.
                                 </li>
                             </ul>
-                            <button class="bouton">read more</button>
+                            <button class="bouton">interested</button>
 
                         </div>
                     </div>
@@ -370,84 +462,84 @@
             </div>
             <div class="container container_portfolio">
                 <div class="row">
-                    <div class="col-md-4  all design project-done"><img src="images/MaxiCoffee.jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  all web project-done"><img src="images/portfolio1(1).jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  all design project-done"><img src="images/portfolio2.jpg" alt="my-project" class="portfolio"></div>
+                    <div class="col-md-4  all design project-done"><img src="images/MaxiCoffee.jpg"
+                            class="portfolio mix" alt="my-project"></div>
+                    <div class="col-md-4  all web project-done"><img src="images/portfolio1(1).jpg"
+                            class="portfolio mix" alt="my-project"></div>
+                    <div class="col-md-4  all design project-done"><img src="images/portfolio2.jpg" alt="my-project"
+                            class="portfolio"></div>
 
                 </div>
                 <div class="row mt-3">
-                    <div class="col-md-4 all design project-done"><img src="images/portfolio1(5).jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4 design all project-done"><img src="images/portfolio3.jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  web all project-done"><img src="images/portfolio4.jpg" alt="my-project" class="portfolio mix"></div>
+                    <div class="col-md-4 all design project-done"><img src="images/portfolio1(5).jpg"
+                            class="portfolio mix" alt="my-project"></div>
+                    <div class="col-md-4 design all project-done"><img src="images/portfolio3.jpg" class="portfolio mix"
+                            alt="my-project"></div>
+                    <div class="col-md-4  web all project-done"><img src="images/portfolio4.jpg" alt="my-project"
+                            class="portfolio mix"></div>
 
                 </div>
-              
+
             </div>
-         
+
 
         </section>
         <section class="my_team pb-5">
             <h2 class="text-center py-5 ">My team work</h2>
             <div class="container team_containers">
                 <div class="row">
-                 
-                    <div class="col-md-4 d-flex flex-column gap-2 justify-content-center align-items-center team_cont flip-card-inner">
-                        <div class="info border d-flex flex-column gap-3 justify-content-center align-items-center flip-card-">
+
+                    <div
+                        class="col-md-4 d-flex flex-column gap-2 justify-content-center align-items-center team_cont">
+                        <div
+                            class="info d-flex flex-column gap-3 justify-content-center align-items-center">
                             <img src="images/Lalaina.jpg" alt="team" class="team_image mt-5">
-                          <div class="about_team d-flex flex-column gap-1 align-items-center">
-                            <div>Lalaina</div>
-                            <div>frotn-end</div>
-                            <div class="d-flex flex-row gap-2 mb-5 ">
-                                <a href="#"><i
-                                        class="fa-brands fa-facebook-f"></i></a>
-                                <a href="#"><i
-                                        class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i
-                                        class="fa-brands fa-twitter"></i></a>
-                                <a href="#"> <i
-                                        class="fa-brands fa-github"></i></a>
+                            <div class="about_team d-flex flex-column gap-1 align-items-center">
+                                <div>Lalaina</div>
+                                <div>developper</div>
+                                <div class="d-flex flex-row gap-2 mb-5 ">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"> <i class="fa-brands fa-github"></i></a>
+                                </div>
                             </div>
-                          </div>
                         </div>
                     </div>
+                    <div
+                        class="col-md-4 d-flex flex-column gap-2 justify-content-center align-items-center team_cont">
+                        <div
+                            class="info d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img src="images/Nantenaina.jpg" alt="team" class="team_image mt-5">
+                            <div class="about_team d-flex flex-column gap-1 align-items-center">
+                                <div>Nantenaina</div>
+                                <div>Data scientist</div>
+                                <div class="d-flex flex-row gap-2 mb-5 ">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"> <i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
                     <div class="col-md-4 d-flex flex-column gap-2 justify-content-center align-items-center team_cont">
-                        <div class="info border d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img src="images/Lalaina.jpg" alt="team" class="team_image mt-5">
-                          <div class="about_team">
-                            <div>Lalaina</div>
-                            <div>frotn-end</div>
-                            <div class="d-flex flex-row gap-2 mb-5">
-                                <a href="#"><i
-                                        class="fa-brands fa-facebook-f"></i></a>
-                                <a href="#"><i
-                                        class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i
-                                        class="fa-brands fa-twitter"></i></a>
-                                <a href="#"> <i
-                                        class="fa-brands fa-github"></i></a>
+                        <div class="info d-flex flex-column gap-3 justify-content-center align-items-center">
+                            <img src="images/Toky.jpg" alt="team" class="team_image mt-5">
+                            <div class="about_team">
+                                <div class="text-center">Tokiniaina</div>
+                                <div>Cybersecurity expert</div>
+                                <div class="d-flex flex-row gap-2 mb-5 justify-content-center">
+                                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"> <i class="fa-brands fa-github"></i></a>
+                                </div>
                             </div>
-                          </div>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex flex-column gap-2 justify-content-center align-items-center team_cont">
-                        <div class="info border d-flex flex-column gap-3 justify-content-center align-items-center">
-                            <img src="images/Lalaina.jpg" alt="team" class="team_image mt-5">
-                          <div class="about_team">
-                            <div>Lalaina</div>
-                            <div>frotn-end</div>
-                            <div class="d-flex flex-row gap-2 mb-5">
-                                <a href="#"><i
-                                        class="fa-brands fa-facebook-f"></i></a>
-                                <a href="#"><i
-                                        class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i
-                                        class="fa-brands fa-twitter"></i></a>
-                                <a href="#"> <i
-                                        class="fa-brands fa-github"></i></a>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
+            
                 </div>
             </div>
         </section>
@@ -458,54 +550,60 @@
                 <div class="swiper-wrapper">
                     <!-- Slides -->
                     <div class="swiper-slide">
+                        <div class="swiper-slide">
+                            <div class="swip d-flex flex-column gap-3 justify-content-center align-items-center pt-4">
+                                <div class="imgcont"><img src="images/client3.jpg"
+                                        class="client_img" alt="client3"></div>
+                                <div class="testimonial-text">
+                                    I am extremely satisfied with the quality of service and the respect shown towards clients. Moreover, the punctuality 
+                                    and adherence to deadlines are commendable, as he consistently meets the given timelines.
+                                    
+                                </div>
+                                <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
+                                <div class="text-center fs-4">Jean Jacque</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
                         <div class="swip d-flex flex-column gap-3 justify-content-center align-items-center pt-4">
-                            <div class="imgcont"><img src="images/istockphoto-1171169099-612x612.jpg" class="client_img"
+                            <div class="imgcont"><img src="images/client2.jfif" class="client_img"
                                     alt="client"></div>
-                            <div class="text-center fs-4">Jean Claude</div>
-                            <p class="testimonial-text">
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Maxime voluptas incidunt, magnam iste quaerat accusantium quasi aspernatur hic quibusdam
-                                necessitatibus amet alias.
-                                Voluptates omnis quasi ut nulla tenetur, autem possimus.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-primary swip d-flex flex-column gap-3 justify-content-center align-items-center pt-4">
-                            <div class="imgcont"><img src="images/istockphoto-1171169099-612x612.jpg" class="client_img"
-                                    alt=""></div>
-                            <div class="text-center fs-4">Jean Claude</div>
-                            <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Maxime voluptas incidunt, magnam iste quaerat accusantium quasi aspernatur hic quibusdam
-                                necessitatibus amet alias.
-                                Voluptates omnis quasi ut nulla tenetur, autem possimus.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="bg-primary swip d-flex flex-column gap-3 justify-content-center align-items-center pt-4">
-                            <div class="imgcont"><img src="images/istockphoto-1171169099-612x612.jpg" class="client_img"
-                                    alt=""></div>
-                            <div class="text-center fs-4">Jean Claude</div>
-                            <p class="testimonial-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Maxime voluptas incidunt, magnam iste quaerat accusantium quasi aspernatur hic quibusdam
-                                necessitatibus amet alias.
-                                Voluptates omnis quasi ut nulla tenetur, autem possimus.
-                            </p>
+                            <div class="testimonial-text">
+                                I am grateful for his expertise and the way he values his clients.
+                                 The promptness in delivering results and the attention to detail have 
+                                 exceeded my expectations.
+                            </div>
+                            <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
+                            <div class="text-center fs-4">Isabella Olivia</div>
+
+
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="swip d-flex flex-column gap-3 justify-content-center align-items-center pt-4">
-                            <div class="imgcont"><img src="images/istockphoto-1171169099-612x612.jpg" class="client_img" alt="client"></div>
-                                    <div class="testimonial-text">
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                        Maxime voluptas incidunt, magnam iste quaerat accusantium quasi aspernatur hic quibusdam
-                                        necessitatibus amet alias.
-                                        Voluptates omnis quasi ut nulla tenetur, autem possimus.
-                                    </div>
-                                    <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
-                            <div class="text-center fs-4">Jean Claude</div>
-                           
+                            <div class="imgcont"><img src="images/client1.jpg" class="client_img"
+                                    alt="client"></div>
+                            <div class="testimonial-text">
+                                His reliability and efficiency in handling projects are unmatched. 
+                                I couldn't be happier with the service received and the way he prioritizes client satisfaction.
+                            </div>
+                            <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
+                            <div class="text-center fs-4">Emma Sofia</div>
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swip d-flex flex-column gap-3 justify-content-center align-items-center pt-4">
+                            <div class="imgcont"><img src="images/client4.jpg" class="client_img"
+                                    alt="client"></div>
+                            <div class="testimonial-text">
+                                I wholeheartedly recommend him for 
+                                his outstanding service and commitment to excellence. He consistently goes above and beyond to ensure clients' needs are met.
+                            </div>
+                            <div><i class="fa-solid fa-quote-left fa-2xl"></i></div>
+                            <div class="text-center fs-4">Henry Benjamen</div>
+
                         </div>
                     </div>
 
@@ -521,52 +619,12 @@
                 <div class="swiper-scrollbar"></div>
             </div>
         </section>
-        <!--
-
-                 <div class="row">
-                    <div class="col-md-4  all design project-done"><img src="images/MaxiCoffee.jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  all web project-done"><img src="images/portfolio1(1).jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  all design project-done"><img src="images/portfolio2.jpg" alt="my-project" class="portfolio"></div>
-
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-4 all design project-done"><img src="images/portfolio1(5).jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4 design all project-done"><img src="images/portfolio3.jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  web all project-done"><img src="images/portfolio4.jpg" alt="my-project" class="portfolio mix"></div>
-
-                </div>
-                
-          -->
+      
+          
 
 
 
 
-        <!--   <h1 class="fs-1  text-center pt-5">portfolio</h1>
-            <div>
-                <ul class="d-flex flex-row gap-5">
-                    <li class="all" data-filter=".all">all</li>
-                    <li class="web" data-filter=".web">web</li>
-                    <li class="design" data-filter=".design">design</li>
-                </ul>
-            </div>
-            <div class="container container_portfolio">
-                <div class="row">
-                    <div class="col-md-4  all design project-done"><img src="images/MaxiCoffee.jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  all web project-done"><img src="images/portfolio1(1).jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  all design project-done"><img src="images/portfolio2.jpg" alt="my-project" class="portfolio"></div>
-
-                </div>
-                <div class="row mt-3">
-                    <div class="col-md-4 all design project-done"><img src="images/portfolio1(5).jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4 design all project-done"><img src="images/portfolio3.jpg" class="portfolio mix" alt="my-project"></div>
-                    <div class="col-md-4  web all project-done"><img src="images/portfolio4.jpg" alt="my-project" class="portfolio mix"></div>
-
-                </div>
-              
-            </div>
-
-        
-          -->
 
         <footer>
             <div class="text-center fs-1 py-4">Get in touch</div>
@@ -637,7 +695,7 @@
     <!-- JS FILES -->
     <script src="https://kit.fontawesome.com/6ee2e6abfa.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="typed.js"></script> <!--typed js file-->
+    <script src="js/typed.js"></script><!--typed js file-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="scrollreveal.js"></script><!--scroll reveal file-->
     <script src="js/mixitup.min.js"></script>
@@ -646,12 +704,11 @@
     <script src="js/swipper.js"></script><!--swipper js file-->
     <script src="js/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/retina.min.js"></script>
     <script src="js/modernizr.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
 
 
 </body>

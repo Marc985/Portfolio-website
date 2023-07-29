@@ -1,7 +1,7 @@
 
 
 //intersection observer
-const sections = document.querySelectorAll('.percentage1 ,.percentage2 ,.percentage3');
+const sections = document.querySelectorAll('.percentage1 ,.percentage2 ,.percentage3,.percentage4 ,.percentage5 ,.percentage6 ,.percentage7 ,.percentage8');
 
 const observerOptions = {
   root: null, // Utilise la fenêtre du navigateur comme racine
@@ -15,6 +15,8 @@ const sectionObserver = new IntersectionObserver((entries, observer) => {
     
   entries.forEach(entry => {
     if (entry.isIntersecting) {
+      let inter=1500
+
       // Ajoutez la classe d'animation lorsque la section est visible
      if( entry.target.classList.contains("percentage1"))
      entry.target.classList.add("animation1")
@@ -33,7 +35,6 @@ const sectionObserver = new IntersectionObserver((entries, observer) => {
      if( entry.target.classList.contains("percentage8"))
      entry.target.classList.add("animation8")
       let values=document.querySelectorAll(".percentage");
-      let inter=1500
       incr(values,inter)
       // Arrêtez d'observer la section une fois l'animation appliquée
       observer.unobserve(entry.target);

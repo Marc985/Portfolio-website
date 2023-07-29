@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
  a{
     text-align: none;
     text-decoration: none;
@@ -6,6 +9,24 @@
 @font-face {
     font-family: 'poppins';
     src: url('../police/Poppins-Light.ttf');
+}
+.barnav{
+   
+    background-color: rgb(13, 16, 21);
+
+}
+.header{
+    margin-top: -1.2vh;
+}
+
+.navbar-brand{
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
 }
 nav{
     gap: 30%;
@@ -15,6 +36,9 @@ nav{
     position: fixed;
     width: 100%;
     
+}
+.navbar-collapse{
+    margin-left: 50%;
 }
 .nav-link{
     color: white;
@@ -35,11 +59,16 @@ nav{
     background-color: rgb(24, 31, 40);
 
 }
+.RC{
+    color: rgb(97, 144, 246);
+}
+.my_logo,.RC{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
 header{
-    background-color: rgba(13, 16, 21, 0.208);
     width: 100%;
     height: 8vh;
-    box-shadow: black 2px 2px 5px;
 }
 
 
@@ -55,8 +84,8 @@ header{
 }
 .media{
     border: 2px white solid;
-    height: 6vh;
-    width: 3vw;
+    height: 70px;
+    width: 70px;
     border-radius: 100%;
 }
 .media:hover{
@@ -123,13 +152,17 @@ header{
 .skill{
     position: relative;
 }
+.qualification_section{
+    background-color: rgb(24, 31, 40);
+
+}
 
 .home{
     padding-bottom: 10%;
 }
 .progress{
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 0.8vh;
     margin: 0 auto;
     
@@ -183,6 +216,11 @@ width: 20vw;
     margin: 0 auto;
     
    
+    
+   
+}
+.percentage_gap{
+    gap: 18%;
 }
 @keyframes progression1 {
     100%{
@@ -279,24 +317,24 @@ width: 20vw;
 .service_icon{
     color: rgb(97, 144, 246);
 }
-.team_containers{
-    border: rgb(179, 170, 170) solid 2px;
-}
+
 .my_team{
     background-color: rgb(13, 16, 21);
 }
 .info{
     width: 90%;
+    border-radius: 15px;
+    background-color: rgb(24, 31, 40);
+
 }
 .team_image{
     width: 120px;
     height: 120px;
     border-radius: 100%;
-    border: rgb(236, 21, 21) solid 8px;
+    border: rgb(97, 144, 246) solid 10px;
+    
 }
-.team_cont{
-    border: rgb(206, 199, 199) solid 2px;
-}
+
 .portfolio{
     width: 100%;
 }
@@ -382,6 +420,9 @@ footer .container{
     position: relative;
 
   }
+  .swiper-button-prev,.swiper-button-next{
+    color: rgb(97, 144, 246) solid 10px;
+  }
   .testimonial{
    border: red solid 2px;
    background-color: rebeccapurple;
@@ -413,6 +454,9 @@ footer .container{
   
   /*=========================responsive====================*/
   @media screen and (max-width: 1024px){
+    .navbar-collapse{
+        margin-left: 0;
+    }
     .text{
         width: 80%;
     }
@@ -434,6 +478,15 @@ footer .container{
     .pic{
         width: 20vw;
         height: 20vh;
+    }
+    .percentage_gap{
+        gap: 55%;
+    }
+    .service-content{
+        margin-top: 20%;
+    }
+    .graduation{
+        text-align: start;
     }
   }
  
