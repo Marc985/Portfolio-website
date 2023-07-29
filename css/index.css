@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
  a{
     text-align: none;
     text-decoration: none;
@@ -108,6 +109,7 @@ header{
 
 .image{
     border-radius: 30%;
+    border: rgb(129, 120, 120) solid 2px;
 }
 .image img{
     margin-top: -10%;
@@ -460,6 +462,7 @@ footer .container{
     .text{
         width: 80%;
     }
+   
     .me{
         width: 80%;
     }
@@ -472,12 +475,14 @@ footer .container{
     .nav{
         display: none;
     }
+    .talk{
+        width: 100%;
+    }
     .swiper{
         width: 100%;
     }
-    .pic{
-        width: 20vw;
-        height: 20vh;
+    .info{
+        margin-top: 15%;
     }
     .percentage_gap{
         gap: 55%;
