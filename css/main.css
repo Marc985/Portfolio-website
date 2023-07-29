@@ -3,19 +3,14 @@
 	Author: Designstub
 	Author URI: http://www.designstub.com
 ------------------------------------------------------------------------------*/
-*{
-	font-family: 'poppins';
-}
-/*@font-face {
-    font-family: 'poppins';
-    src: url('../police/Poppins-Light.ttf');
-}*/
+
 
 
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 /* ------------------------------------------------------------------------------
 	 Typography
 -------------------------------------------------------------------------------*/
+
 p {
 	font-size: 14px;
 	line-height: 22.4px;

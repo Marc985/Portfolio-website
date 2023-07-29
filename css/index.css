@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'poppins';
+    
 }
 
- a{
-    text-align: none;
+ a{ 
     text-decoration: none;
  }
 @font-face {
@@ -16,7 +17,6 @@
     background-color: rgb(13, 16, 21);
     margin-top: -1vh;
     
-
 }
 body{
     background: rgb(13, 16, 21);
@@ -105,6 +105,9 @@ header{
     background-color: white;
     color: rgb(97, 144, 246);
     transition: 0.6;
+}
+.about_me{
+    color: rgb(97, 144, 246);
 }
 .section1{
    background-color: rgb(24, 31, 40);
